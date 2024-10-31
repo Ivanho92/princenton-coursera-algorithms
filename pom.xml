@@ -8,13 +8,13 @@
   <name>my-app</name>
   <url>https://github.com/microsoft/vscode-remote-try-java</url>
 
-  <repositories>
-    <repository>
-      <id>org.coursera.algs4</id>
-      <name>Algs4 coursera course custom repository</name>
-      <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>
-    </repository>
-  </repositories>
+<!--  <repositories>-->
+<!--    <repository>-->
+<!--      <id>org.coursera.algs4</id>-->
+<!--      <name>Algs4 coursera course custom repository</name>-->
+<!--      <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>-->
+<!--    </repository>-->
+<!--  </repositories>-->
 
   <dependencies>
     <dependency>
@@ -37,11 +37,11 @@
       <scope>test</scope>
     </dependency>
     
-    <dependency>
-      <groupId>edu.princeton.cs.algs4</groupId>
-      <artifactId>algs4</artifactId>
-      <version>1.0</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>edu.princeton.cs.algs4</groupId>-->
+<!--      <artifactId>algs4</artifactId>-->
+<!--      <version>1.0</version>-->
+<!--    </dependency>-->
   </dependencies>
 
   <properties>
