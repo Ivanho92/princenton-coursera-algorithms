@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelloWorld2",
+            "request": "launch",
+            "mainClass": "week2_Percolation.HelloWorld2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "week1_HelloWorld.HelloWorld",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
