@@ -65,7 +65,7 @@ public class Percolation {
         if (grid[row - 1][col - 1] == Site.BLOCKED)
             return false;
 
-        return ufNoBottom.connected(xyTo1D(row, col), virtualStartRoot);
+        return ufNoBottom.find(xyTo1D(row, col)) == ufNoBottom.find(virtualStartRoot);
     }
 
     // returns the number of open sites
@@ -75,7 +75,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return uf.connected(virtualStartRoot, virtualEndRoot);
+        return uf.find(virtualStartRoot) == uf.find(virtualEndRoot);
     }
 
     //region Private methods
